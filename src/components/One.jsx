@@ -53,7 +53,7 @@ function One() {
     </Swiper>
   </div>
   <div className='container bannerend'>
-    <div className="row g-3">
+    <div className="row g-3 mx-auto">
       {data.map((a) => (
         <div className={`col-12 col-sm-6 col-md-4 col-lg-3 bannerendbox position-relative bg-${a.color} text-center mx-2 rounded-4`} key={a.id} style={{ paddingTop: '45px' }}>
           <div className="position-absolute adv translate-middle-x">

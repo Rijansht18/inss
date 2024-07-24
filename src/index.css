@@ -307,4 +307,6 @@ footer{
     100% { background-position: 100% 50%; }
   }
 
-  
+@media (max-width: 1400px) {
+    .bannerend{display: none;}
+}

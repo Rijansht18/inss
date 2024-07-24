@@ -24,7 +24,7 @@ function Two() {
           {online.map((a)=>(
             <div key={a.id} className="row ">
               <div className="col-lg-3 mt-4 ">
-                <div className="rounded-circle bg-primary overflow-hidden py-3" style={{ width: '70px', height: '100px' }}>
+                <div className="rounded-circle bg-primary overflow-hidden py-3" style={{ width: '80px', height: '80px' }}>
                   <img src={a.image} style={{ width: '100%', objectFit: 'cover' }} alt="" />
                 </div>
               </div>
